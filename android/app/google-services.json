@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451244652430",
+    "project_id": "otonomus-45e05",
+    "storage_bucket": "otonomus-45e05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451244652430:android:9c5323cbb70d7b53a516df",
+        "android_client_info": {
+          "package_name": "com.example.task6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451244652430-aqk86ql6a8vl6emt9obrv2og25k1oegp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XzIGrkdIelVMalEuh7AyCw52DxsqTOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451244652430-aqk86ql6a8vl6emt9obrv2og25k1oegp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
