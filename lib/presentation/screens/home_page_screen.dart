@@ -80,7 +80,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                               style: TextStyle(
                                 color: Color.fromRGBO(50, 62, 72, 1),
                                 fontSize: 14.0,
-                                fontFamily: 'Monserrat',
+                                fontFamily: 'MontserratRegular',
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
@@ -104,7 +104,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                       style: TextStyle(
                         color: Color.fromRGBO(178, 187, 202, 1),
                         fontSize: 14.0,
-                        fontFamily: 'Monserrat',
+                        fontFamily: 'MontserratRegular',
                       ),
                     ),
                   ),
@@ -152,9 +152,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                         ),
                         icon: Row(
                           children: [
-                            SizedBox(
-                                width:
-                                    16), // Add spacing between the text and the extra icon
+                            SizedBox(width: 16),
                             SvgPicture.asset(
                               'assets/Icon-16x-dropdown (1).svg',
                               color: Color.fromARGB(217, 13, 6, 18),

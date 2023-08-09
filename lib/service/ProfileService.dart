@@ -15,7 +15,6 @@ class CompleteProfileService {
         await http.get(Uri.parse('$baseUrl/countries?page=0&size=300'));
 
     if (response.statusCode == 200) {
-      print('fetched countries');
       var decodedResponse = jsonDecode(response.body);
       var result = decodedResponse['data'] as List;
       final countries =

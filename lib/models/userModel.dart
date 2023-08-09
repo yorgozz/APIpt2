@@ -1,15 +1,31 @@
 class UserModel {
   String email;
-  String password;
   String firstName;
   String lastName;
-  bool isLoggedIn;
+  String userId;
 
   UserModel({
     required this.email,
-    required this.password,
     required this.firstName,
     required this.lastName,
-    this.isLoggedIn = false,
+    required this.userId,
   });
+
+  Map<String, dynamic> toMap() {
+    return {
+      'userId': userId,
+      'email': email,
+      'firstName': firstName,
+      'lastName': lastName,
+    };
+  }
+
+  factory UserModel.fromJson(Map<String, dynamic> json) {
+    return UserModel(
+      email: json['email'],
+      firstName: json['firstName'],
+      lastName: json['lastName'],
+      userId: json['userId'],
+    );
+  }
 }
